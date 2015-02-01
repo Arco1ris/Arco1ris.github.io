@@ -1,0 +1,15 @@
+.jumbotron {
+  background-image:url('http://imglf0.ph.126.net/b_9iL6Wmr95W3qWFu5elrg==/6619251314235618378.jpg');
+  height: 570px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: auto;
+}
+
+ .nav li {
+  display: inline;
+     padding-left:20px;
+     padding-right: 20px;
+     padding-top: 30px;
+     font-family: fantasy;
+}
