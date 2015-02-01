@@ -1,15 +1,25 @@
 .jumbotron .container{
-  height: 500px;
+  height: auto;
+  width: auto;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-left: 0px;
-  padding-right: 0px;
+    padding-left: 0px;
+}
+.jumbotron{
+    height:auto;
+    width: inherit;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .nav li {
      display: inline;
-     padding-left:30px;
+     padding-left:10px;
      padding-right: 20px;
      padding-top:20px;
      font-family: fantasy;
+}
+.nav .container{
+    padding-top: 12px;
+    padding-bottom: 10px;
 }
