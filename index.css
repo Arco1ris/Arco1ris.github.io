@@ -1,25 +1,151 @@
-.jumbotron .container{
-  height: auto;
-  width: auto;
-  background-repeat: no-repeat;
-  background-size: cover;
-    padding-left: 0px;
-}
-.jumbotron{
-    height:auto;
-    width: inherit;
-    padding-top: 0px;
-    padding-bottom: 0px;
+
+html{
+    background:black;
+    /*background-color: #1E90FF;*/
+    padding-left: 43px;
+    padding-right: 43px;
 }
 
-.nav li {
-     display: inline;
-     padding-left:10px;
-     padding-right:10px;
-     padding-top:10px;
-     font-family: fantasy;
+#container {
+    width:auto;
+    height:auto;
+    margin: 3.3em auto;
 }
-.container .nav{
+
+#header {
+    background-image: url(pic/1.png);
+    height: 560px;   
+    padding-top: 10px;
+    margin-bottom: 26px;
+    
+}
+#header ul.nav{
+    float:right;
+    color:black;
+    padding-right: 100px;
+}
+#header h2 a{
+    float:left;
+    padding-left: 100px;
+    color:white;
+    font-size-adjust: auto;
+    font-size: 50px;
+    font-family: fantasy;
+    text-decoration:none;
+    
+}
+.nav-pills li a{
+    color:white;
+    font-family: fantasy;
+}
+
+.a h1{
+    margin-top: 190px;
+    font-size:80px;
+    font-size-adjust: auto;
+    padding: 10px 10px 10px 10px;
+    color:white;
+    font-weight: 100;
+    text-align:center;
+}
+.a p a{
+    margin-top: 190px;
+    font-size:20px;
+    font-size-adjust: auto;
+    color:white;
+    font-weight: 100;
+    text-align:center;
+    margin-left: 480px;
+    text-decoration:none;
+}
+
+#one{
+    height: 380px;   
+    padding-top: 10px;   
+}
+
+.b h1{
+    margin-top: 90px;
+    font-size:40px;
+    font-size-adjust: auto;
+    padding: 10px 10px 10px 10px;
+    color:black;
+    font-weight: 100;
+    text-align:center;
+}
+.b p {
+    margin-top: 0px;
+    font-size:14px;
+    font-size-adjust: auto;
+    padding: 10px 10px 10px 10px;
+    text-align:center;
+}
+.b p a{
+    color:black;
+}
+#two {
+    height: 350px;   
     padding-top: 0px;
-    padding-bottom: 0px;
+    background-color:black ;
 }
+#two .p{
+    padding-left: 120px;
+    padding-top: 20px;
+}
+#two h3{
+    
+    font-size:20px;
+    font-size-adjust: auto;
+    padding:40px 10px 10px 10px;
+    color:white;
+    font-weight: 100;
+    text-align:center;
+}
+
+.thumbnail {
+ width: 200px; 
+ height: 200px; 
+ background-color:; 
+ border-radius: 100px;
+}
+.h .thumbnail{
+    background-image:  url(pic/2.png);
+}
+.l .thumbnail{
+    background-image:  url(pic/3.png);
+}
+.m .thumbnail{
+    background-image:  url(/pic4.png);
+}
+
+#three{
+    height: 550px;   
+    padding: 10px;
+    /*margin-bottom: 30px;*/
+    border:solid 5px; 
+}
+#three .c{
+   margin-top: 70px;
+    font-size:24px;
+    font-size-adjust: auto;
+    padding: 10px 10px 10px 10px;
+    color:black;
+    font-weight: 100;
+    text-align:center; 
+}
+#three p{
+    font-size:14px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+#three p span{
+    color:grey;
+    
+}
+
+#four{
+    height: 380px;   
+    margin-bottom: 30px;
+    border:solid 5px; 
+}
+
