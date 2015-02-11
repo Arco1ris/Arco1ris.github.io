@@ -19,6 +19,7 @@ html{
     margin-bottom: 26px;
     
 }
+
 #header ul.nav{
     float:right;
     color:black;
@@ -39,27 +40,33 @@ html{
     font-family: fantasy;
 }
 
-.a h1{
-    margin-top: 190px;
+#header .bg {
+    margin-top: -65px;
+    height:300px;
+    background:rgba(0,0,0,0.4);
+}
+
+.bg .a h1{
+    margin-top: 200px;
+    padding-top: 70px;
     font-size:80px;
     font-size-adjust: auto;
-    padding: 10px 10px 10px 10px;
     color:white;
     font-weight: 100;
     text-align:center;
 }
-.a p a{
+.bg .a p a{
     margin-top: 190px;
     font-size:20px;
     font-size-adjust: auto;
     color:white;
-    font-weight: 100;
+    font-weight: 300;
     text-align:center;
     margin-left: 480px;
     text-decoration:none;
 }
 
-#one{
+.one{
     height: 380px;   
     padding-top: 10px;   
 }
@@ -83,18 +90,19 @@ html{
 .b p a{
     color:black;
 }
-#two {
-    height: 350px;   
+.two {
+    height: 530px;   
     padding-top: 0px;
-    background-color:black ;
+    background-color:#222;
 }
-#two .p{
+.two .p{
     padding-left: 120px;
     padding-top: 20px;
+    margin-top: 100px;
 }
-#two h3{
-    
-    font-size:20px;
+.two h3{
+    margin-top: 60px;
+    font-size:30px;
     font-size-adjust: auto;
     padding:40px 10px 10px 10px;
     color:white;
@@ -102,7 +110,7 @@ html{
     text-align:center;
 }
 
-.thumbnail {
+.two .thumbnail {
  width: 200px; 
  height: 200px; 
  background-color:; 
@@ -118,14 +126,13 @@ html{
     background-image:  url(4.png);
 }
 
-#three{
-    height: 550px;   
+.three{
+    height: 540px;   
     padding: 10px;
     /*margin-bottom: 30px;*/
-    border:solid 5px; 
 }
-#three .c{
-   margin-top: 70px;
+.three .c{
+    margin-top: 70px;
     font-size:24px;
     font-size-adjust: auto;
     padding: 10px 10px 10px 10px;
@@ -133,19 +140,52 @@ html{
     font-weight: 100;
     text-align:center; 
 }
-#three p{
+.three p{
     font-size:14px;
     font-weight: 400;
     margin-top: 30px;
 }
-#three p span{
+.three p span{
     color:grey;
     
 }
-
-#four{
+#footer{
+    height: 20px; 
+    padding-top: 
+    /*margin-bottom: 30px;*/
+}
+#footer .d h3{
+    padding-top: 1px;
+    font-size: 15px;
+    text-align:center; 
+    font-family: fantasy;
+    
+}
+/*#four{
     height: 380px;   
     margin-bottom: 30px;
     border:solid 5px; 
+    background-color: black;
 }
+
+.q .thumbnail{
+    margin-left: 100px;
+    margin-top: 40px;
+    height:300px;
+    width: 400px;
+    background-image: url(7.png)
+}
+
+.z .thumbnail{
+    margin-right: 300px;
+    margin-top: 40px;
+    height:300px;
+    width: 400px;
+    background-image: url(8.png)
+    
+}
+.z .thumbnail h2,p{
+    color:black;
+}
+*/
 
