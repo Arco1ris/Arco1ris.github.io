@@ -13,7 +13,7 @@ html{
 }
 
 #header {
-    background-image: url(1.png);
+    background-image: url(./pict/1.png);
     height: 560px;   
     padding-top: 10px;
     margin-bottom: 26px;
@@ -25,12 +25,12 @@ html{
     color:black;
     padding-right: 100px;
 }
-#header h2 a{
+#header h4 a{
     float:left;
     padding-left: 100px;
     color:white;
     font-size-adjust: auto;
-    font-size: 50px;
+    font-size: 20px;
     font-family: fantasy;
     text-decoration:none;
     
@@ -117,13 +117,13 @@ html{
  border-radius: 100px;
 }
 .h .thumbnail{
-    background-image:  url(2.png);
+    background-image:  url(./pict/2.png);
 }
 .l .thumbnail{
-    background-image:  url(3.png);
+    background-image:  url(./pict/3.png);
 }
 .m .thumbnail{
-    background-image:  url(4.png);
+    background-image:  url(./pict/4.png);
 }
 
 .three{
